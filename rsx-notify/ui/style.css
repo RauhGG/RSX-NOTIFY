@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'San-francisco';src: url('SF-Compact-Text-Medium.ttf');
+}
+
+body {
+    font-family: 'San-francisco';
+}
+
+
+.noti {
+    position: absolute;
+    bottom: 59vw;
+    right: 3vw;
+    display: flex;
+    font-size: 1vw;
+    padding: .5vw;
+    max-width: 40vw;
+    border-bottom-right-radius: .4vw;
+    border-top-right-radius: .4vw;
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+.logo {
+    position: absolute;
+    padding: .5vw;
+    top: -.01vw;
+    color: white;
+    border-bottom-left-radius: .4vw;
+    border-top-left-radius: .4vw;
+    text-shadow: 0vw 0vw .4vw white;
+    background-color: rgba(0, 0, 0, 0.795);
+    left: -2vw;
+}
