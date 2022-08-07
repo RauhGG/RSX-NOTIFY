@@ -14,4 +14,5 @@ end
 
 RegisterCommand('testnoti', function(source, args)
     sendnoti(args[1], args[2])
+    print("Cañota es muy Guapo")
 end)
